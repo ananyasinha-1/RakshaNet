@@ -5,6 +5,7 @@ RakshaNet is a web-based Women Safety SOS system that is intended to offer promp
 
 Women often face unsafe situations where immediate help is required, but accessing emergency services quickly can be difficult. Delays in communication, lack of location sharing, and complex interfaces reduce the chances of timely assistance. It addresses this problem by offering a one-tap SOS solution that instantly shares the user’s location and emergency status.
 
+
 💡 Solution Overview
 
 • RakshaNet provides a simple and user-friendly emergency alert mechanism that allows users to:
@@ -19,6 +20,7 @@ Women often face unsafe situations where immediate help is required, but accessi
 
 The system is designed to be fast, easy to use, and suitable for real-world scalability in the future.
 
+
 ✨ Features
 
 • One-tap SOS activation: Instantly trigger an emergency alert with a single tap.
@@ -31,6 +33,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 
 • SOS cancel & status control: Allows users to cancel the alert and monitor its current status.
 
+
 🛠️ Technologies Used
 
 • Frontend development: HTML, CSS, JavaScript 
@@ -40,6 +43,8 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • User location access: Google Geolocation API 
 
 • Location display & nearby emergency places: Google Maps API 
+
+
 📊 System Workflow
 
 • User taps the SOS button
@@ -52,6 +57,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 
 • User can cancel or monitor SOS status
 
+
 ⚠️ Limitations
 
 • Requires an active internet connection
@@ -59,6 +65,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • Prototype does not include direct police API integration
 
 • Location accuracy depends on device GPS
+
 
 🔮 Future Enhancements
 
