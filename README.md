@@ -1,12 +1,12 @@
 # RakshaNet
 RakshaNet is a web-based Women Safety SOS system that is intended to offer prompt assistance in an emergency. Users can share their current location, initiate an SOS alert, and contact local emergency services like police stations and hospitals with just one tap.
 
-🚨 Problem Statement
+##🚨 Problem Statement
 
 Women often face unsafe situations where immediate help is required, but accessing emergency services quickly can be difficult. Delays in communication, lack of location sharing, and complex interfaces reduce the chances of timely assistance. It addresses this problem by offering a one-tap SOS solution that instantly shares the user’s location and emergency status.
 
 
-💡 Solution Overview
+##💡 Solution Overview
 
 • RakshaNet provides a simple and user-friendly emergency alert mechanism that allows users to:
 
@@ -21,7 +21,7 @@ Women often face unsafe situations where immediate help is required, but accessi
 The system is designed to be fast, easy to use, and suitable for real-world scalability in the future.
 
 
-✨ Features
+##✨ Features
 
 • One-tap SOS activation: Instantly trigger an emergency alert with a single tap.
 
@@ -34,7 +34,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • SOS cancel & status control: Allows users to cancel the alert and monitor its current status.
 
 
-🛠️ Technologies Used
+##🛠️ Technologies Used
 
 • Frontend development: HTML, CSS, JavaScript 
 
@@ -45,7 +45,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • Location display & nearby emergency places: Google Maps API 
 
 
-📊 System Workflow
+##📊 System Workflow
 
 • User taps the SOS button
 
@@ -58,7 +58,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • User can cancel or monitor SOS status
 
 
-⚠️ Limitations
+##⚠️ Limitations
 
 • Requires an active internet connection
 
@@ -68,7 +68,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 
 
 
-🔮 Future Enhancements
+##🔮 Future Enhancements
 
 • Long-press or countdown-based SOS activation
 
@@ -82,7 +82,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 
 
 
-🔄 Repository Status
+##🔄 Repository Status
 
 This repository is under active development.
 We will be continuously updating this repository with new features, improvements, and optimizations in future updates.
