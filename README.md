@@ -67,6 +67,7 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • Location accuracy depends on device GPS
 
 
+
 🔮 Future Enhancements
 
 • Long-press or countdown-based SOS activation
@@ -78,6 +79,8 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • Audio/video evidence capture
 
 • Contact hierarchy & escalation logic
+
+
 
 🔄 Repository Status
 
