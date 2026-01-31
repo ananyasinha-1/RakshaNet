@@ -79,10 +79,3 @@ The system is designed to be fast, easy to use, and suitable for real-world scal
 • Audio/video evidence capture
 
 • Contact hierarchy & escalation logic
-
-
-
-##🔄 Repository Status
-
-This repository is under active development.
-We will be continuously updating this repository with new features, improvements, and optimizations in future updates.
