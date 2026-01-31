@@ -3,82 +3,74 @@ RakshaNet is a web-based Women Safety SOS system that is intended to offer promp
 
 🚨 Problem Statement
 
-Women often face unsafe situations where immediate help is required, but accessing emergency services quickly can be difficult. Delays in communication, lack of location sharing, and complex interfaces reduce the chances of timely assistance.
-
-RakshaNet addresses this problem by offering a one-tap SOS solution that instantly shares the user’s location and emergency status.
+Women often face unsafe situations where immediate help is required, but accessing emergency services quickly can be difficult. Delays in communication, lack of location sharing, and complex interfaces reduce the chances of timely assistance. It addresses this problem by offering a one-tap SOS solution that instantly shares the user’s location and emergency status.
 
 💡 Solution Overview
 
-RakshaNet provides a simple and user-friendly emergency alert mechanism that allows users to:
+• RakshaNet provides a simple and user-friendly emergency alert mechanism that allows users to:
 
-Trigger SOS alerts instantly
+• Trigger SOS alerts instantly
 
-Share live location in real time
+• Share live location in real time
 
-View nearby emergency services
+• View nearby emergency services
 
-Control and cancel alerts when needed
+• Control and cancel alerts when needed
 
 The system is designed to be fast, easy to use, and suitable for real-world scalability in the future.
 
 ✨ Features
 
-One-tap SOS activation
-Instantly trigger an emergency alert with a single tap.
+• One-tap SOS activation: Instantly trigger an emergency alert with a single tap.
 
-Instant live location sharing
-Automatically captures and shares the user’s current location.
+• Instant live location sharing: Automatically captures and shares the user’s current location.
 
-Real-time Firebase backend updates
-SOS events and status updates are synced instantly using Firebase.
+• Real-time Firebase backend updates: SOS events and status updates are synced instantly using Firebase.
 
-Nearby police & hospitals in one click
-Displays nearby emergency services based on user location.
+• Nearby police & hospitals in one click: Displays nearby emergency services based on user location.
 
-SOS cancel & status control
-Allows users to cancel the alert and monitor its current status.
+• SOS cancel & status control: Allows users to cancel the alert and monitor its current status.
 
 🛠️ Technologies Used
 
-HTML, CSS, JavaScript – Frontend development
+• Frontend development: HTML, CSS, JavaScript 
 
-Firebase Realtime Database – Real-time SOS data storage & updates
+• Real-time SOS data storage & updates- Firebase Realtime Database 
 
-Google Geolocation API – User location access
+• User location access: Google Geolocation API 
 
-Google Maps API – Location display & nearby emergency places
-
+• Location display & nearby emergency places: Google Maps API 
 📊 System Workflow
 
-User taps the SOS button
+• User taps the SOS button
 
-System captures the current location
+• System captures the current location
 
-SOS data is sent to Firebase in real time
+• SOS data is sent to Firebase in real time
 
-Location and emergency status are updated instantly
+• Location and emergency status are updated instantly
 
-User can cancel or monitor SOS status
+• User can cancel or monitor SOS status
 
 ⚠️ Limitations
 
-Requires an active internet connection
+• Requires an active internet connection
 
-Prototype does not include direct police API integration
+• Prototype does not include direct police API integration
 
-Location accuracy depends on device GPS
+• Location accuracy depends on device GPS
 
 🔮 Future Enhancements
 
-Long-press or countdown-based SOS activation
+• Long-press or countdown-based SOS activation
 
-Offline SMS-based alert fallback
+• Offline SMS-based alert fallback
 
-Emergency type categorization (medical, threat, accident)
+• Emergency type categorization (medical, threat, accident)
 
-Audio/video evidence capture
+• Audio/video evidence capture
 
-Contact hierarchy & escalation logic
+• Contact hierarchy & escalation logic
 
 🔄 Repository Status
 
