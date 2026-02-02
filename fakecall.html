@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate A Fake Call</title>
+    <link rel="stylesheet" href="fakecall.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Generate A Fake Call</h1>
+        <p>Press the button below. A fake call will trigger in 5 seconds.</p>
+        <button id="triggerBtn" class="sos-btn">Schedule Fake Call</button>
+    </div>
+
+    <div id="fakeCallScreen" class="hidden">
+        <div class="caller-info">
+            <div class="caller-avatar">👤</div>
+            <h2 id="callerName">Mom</h2>
+            <p>Incoming Call...</p>
+        </div>
+        
+        <div class="call-actions">
+            <div class="action-btn decline" onclick="endCall()">
+                <span>✖</span>
+                <p>Decline</p>
+            </div>
+            <div class="action-btn accept" onclick="acceptCall()">
+                <span>📞</span>
+                <p>Accept</p>
+            </div>
+        </div>
+        <audio id="ringtone" src="incoming_call.mp3" loop></audio>
+    </div>
+
+    <script src="fakecall.js"></script>
+</body>
+</html>

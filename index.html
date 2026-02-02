@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> <meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women Safety SOS</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="container">
+<h1>Women Safety SOS</h1> 
+<p>One tap. Instant alert. Real-time safety.</p> 
+<button class="sos-btn" onclick="activateSOS()">TAP FOR<br>SOS</button> 
+<h2 class="arrow">⬆️</h2> 
+<p id="status">One tap to send alert and share live location</p> 
+<div class="map-box" id="mapBox"></div>
+<div class="safe-buttons"> 
+<button id="policeBtn"> Police</button> 
+<button id="hospitalBtn">Hospital</button>
+<button id="helpBtn">Help Center</button>
+<button id="fakecallBtn" src="fakecall.html">Fake Call</button> 
+<button id="sirenBtn" src="siren.html">Siren</button> 
+</div>
+<button id="cancelBtn" class="cancel-btn" onclick="resetSOS()" disabled> Cancel SOS </button>
+<div id="popup" class="popup">🚨 Alert sent successfully</div>
+
+</div> 
+<script src="script.js"></script>
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDTYZ2-u4Ouu9teBCpLplwTZ6mhHZ-JrK0",
+    authDomain: "women-safety-sos-21d0f.firebaseapp.com",
+    databaseURL: "https://women-safety-sos-21d0f-default-rtdb.firebaseio.com",
+    projectId: "women-safety-sos-21d0f",
+    storageBucket: "women-safety-sos-21d0f.appspot.com",
+    messagingSenderId: "953307696632",
+    appId: "1:953307696632:web:612b6c5069feebdbac9a0d"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body> 
+</html>
